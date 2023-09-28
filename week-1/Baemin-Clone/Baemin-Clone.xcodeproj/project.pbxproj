@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5824FFAB2AC3C4C8007E1C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824FFAA2AC3C4C8007E1C17 /* AppDelegate.swift */; };
+		5824FFAD2AC3C4C8007E1C17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824FFAC2AC3C4C8007E1C17 /* SceneDelegate.swift */; };
+		5824FFAF2AC3C4C8007E1C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824FFAE2AC3C4C8007E1C17 /* ViewController.swift */; };
+		5824FFB22AC3C4C8007E1C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5824FFB02AC3C4C8007E1C17 /* Main.storyboard */; };
+		5824FFB42AC3C4CA007E1C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5824FFB32AC3C4CA007E1C17 /* Assets.xcassets */; };
+		5824FFB72AC3C4CA007E1C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5824FFB52AC3C4CA007E1C17 /* LaunchScreen.storyboard */; };
+		5824FFC22AC3C4CA007E1C17 /* Baemin_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824FFC12AC3C4CA007E1C17 /* Baemin_CloneTests.swift */; };
+		5824FFCC2AC3C4CA007E1C17 /* Baemin_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824FFCB2AC3C4CA007E1C17 /* Baemin_CloneUITests.swift */; };
+		5824FFCE2AC3C4CA007E1C17 /* Baemin_CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5824FFCD2AC3C4CA007E1C17 /* Baemin_CloneUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5824FFBE2AC3C4CA007E1C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5824FF9F2AC3C4C8007E1C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5824FFA62AC3C4C8007E1C17;
+			remoteInfo = "Baemin-Clone";
+		};
+		5824FFC82AC3C4CA007E1C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5824FF9F2AC3C4C8007E1C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5824FFA62AC3C4C8007E1C17;
+			remoteInfo = "Baemin-Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5824FFA72AC3C4C8007E1C17 /* Baemin-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baemin-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5824FFAA2AC3C4C8007E1C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5824FFAC2AC3C4C8007E1C17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5824FFAE2AC3C4C8007E1C17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5824FFB12AC3C4C8007E1C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5824FFB32AC3C4CA007E1C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5824FFB62AC3C4CA007E1C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5824FFB82AC3C4CA007E1C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5824FFBD2AC3C4CA007E1C17 /* Baemin-CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baemin-CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5824FFC12AC3C4CA007E1C17 /* Baemin_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_CloneTests.swift; sourceTree = "<group>"; };
+		5824FFC72AC3C4CA007E1C17 /* Baemin-CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baemin-CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5824FFCB2AC3C4CA007E1C17 /* Baemin_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_CloneUITests.swift; sourceTree = "<group>"; };
+		5824FFCD2AC3C4CA007E1C17 /* Baemin_CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5824FFA42AC3C4C8007E1C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5824FFBA2AC3C4CA007E1C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5824FFC42AC3C4CA007E1C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5824FF9E2AC3C4C8007E1C17 = {
+			isa = PBXGroup;
+			children = (
+				5824FFA92AC3C4C8007E1C17 /* Baemin-Clone */,
+				5824FFC02AC3C4CA007E1C17 /* Baemin-CloneTests */,
+				5824FFCA2AC3C4CA007E1C17 /* Baemin-CloneUITests */,
+				5824FFA82AC3C4C8007E1C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5824FFA82AC3C4C8007E1C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5824FFA72AC3C4C8007E1C17 /* Baemin-Clone.app */,
+				5824FFBD2AC3C4CA007E1C17 /* Baemin-CloneTests.xctest */,
+				5824FFC72AC3C4CA007E1C17 /* Baemin-CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5824FFA92AC3C4C8007E1C17 /* Baemin-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				5824FFAA2AC3C4C8007E1C17 /* AppDelegate.swift */,
+				5824FFAC2AC3C4C8007E1C17 /* SceneDelegate.swift */,
+				5824FFAE2AC3C4C8007E1C17 /* ViewController.swift */,
+				5824FFB02AC3C4C8007E1C17 /* Main.storyboard */,
+				5824FFB32AC3C4CA007E1C17 /* Assets.xcassets */,
+				5824FFB52AC3C4CA007E1C17 /* LaunchScreen.storyboard */,
+				5824FFB82AC3C4CA007E1C17 /* Info.plist */,
+			);
+			path = "Baemin-Clone";
+			sourceTree = "<group>";
+		};
+		5824FFC02AC3C4CA007E1C17 /* Baemin-CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				5824FFC12AC3C4CA007E1C17 /* Baemin_CloneTests.swift */,
+			);
+			path = "Baemin-CloneTests";
+			sourceTree = "<group>";
+		};
+		5824FFCA2AC3C4CA007E1C17 /* Baemin-CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5824FFCB2AC3C4CA007E1C17 /* Baemin_CloneUITests.swift */,
+				5824FFCD2AC3C4CA007E1C17 /* Baemin_CloneUITestsLaunchTests.swift */,
+			);
+			path = "Baemin-CloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5824FFA62AC3C4C8007E1C17 /* Baemin-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5824FFD12AC3C4CA007E1C17 /* Build configuration list for PBXNativeTarget "Baemin-Clone" */;
+			buildPhases = (
+				5824FFA32AC3C4C8007E1C17 /* Sources */,
+				5824FFA42AC3C4C8007E1C17 /* Frameworks */,
+				5824FFA52AC3C4C8007E1C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baemin-Clone";
+			productName = "Baemin-Clone";
+			productReference = 5824FFA72AC3C4C8007E1C17 /* Baemin-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5824FFBC2AC3C4CA007E1C17 /* Baemin-CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5824FFD42AC3C4CA007E1C17 /* Build configuration list for PBXNativeTarget "Baemin-CloneTests" */;
+			buildPhases = (
+				5824FFB92AC3C4CA007E1C17 /* Sources */,
+				5824FFBA2AC3C4CA007E1C17 /* Frameworks */,
+				5824FFBB2AC3C4CA007E1C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5824FFBF2AC3C4CA007E1C17 /* PBXTargetDependency */,
+			);
+			name = "Baemin-CloneTests";
+			productName = "Baemin-CloneTests";
+			productReference = 5824FFBD2AC3C4CA007E1C17 /* Baemin-CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5824FFC62AC3C4CA007E1C17 /* Baemin-CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5824FFD72AC3C4CA007E1C17 /* Build configuration list for PBXNativeTarget "Baemin-CloneUITests" */;
+			buildPhases = (
+				5824FFC32AC3C4CA007E1C17 /* Sources */,
+				5824FFC42AC3C4CA007E1C17 /* Frameworks */,
+				5824FFC52AC3C4CA007E1C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5824FFC92AC3C4CA007E1C17 /* PBXTargetDependency */,
+			);
+			name = "Baemin-CloneUITests";
+			productName = "Baemin-CloneUITests";
+			productReference = 5824FFC72AC3C4CA007E1C17 /* Baemin-CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5824FF9F2AC3C4C8007E1C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5824FFA62AC3C4C8007E1C17 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5824FFBC2AC3C4CA007E1C17 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5824FFA62AC3C4C8007E1C17;
+					};
+					5824FFC62AC3C4CA007E1C17 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5824FFA62AC3C4C8007E1C17;
+					};
+				};
+			};
+			buildConfigurationList = 5824FFA22AC3C4C8007E1C17 /* Build configuration list for PBXProject "Baemin-Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5824FF9E2AC3C4C8007E1C17;
+			productRefGroup = 5824FFA82AC3C4C8007E1C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5824FFA62AC3C4C8007E1C17 /* Baemin-Clone */,
+				5824FFBC2AC3C4CA007E1C17 /* Baemin-CloneTests */,
+				5824FFC62AC3C4CA007E1C17 /* Baemin-CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5824FFA52AC3C4C8007E1C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824FFB72AC3C4CA007E1C17 /* LaunchScreen.storyboard in Resources */,
+				5824FFB42AC3C4CA007E1C17 /* Assets.xcassets in Resources */,
+				5824FFB22AC3C4C8007E1C17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5824FFBB2AC3C4CA007E1C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5824FFC52AC3C4CA007E1C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5824FFA32AC3C4C8007E1C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824FFAF2AC3C4C8007E1C17 /* ViewController.swift in Sources */,
+				5824FFAB2AC3C4C8007E1C17 /* AppDelegate.swift in Sources */,
+				5824FFAD2AC3C4C8007E1C17 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5824FFB92AC3C4CA007E1C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824FFC22AC3C4CA007E1C17 /* Baemin_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5824FFC32AC3C4CA007E1C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824FFCE2AC3C4CA007E1C17 /* Baemin_CloneUITestsLaunchTests.swift in Sources */,
+				5824FFCC2AC3C4CA007E1C17 /* Baemin_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5824FFBF2AC3C4CA007E1C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5824FFA62AC3C4C8007E1C17 /* Baemin-Clone */;
+			targetProxy = 5824FFBE2AC3C4CA007E1C17 /* PBXContainerItemProxy */;
+		};
+		5824FFC92AC3C4CA007E1C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5824FFA62AC3C4C8007E1C17 /* Baemin-Clone */;
+			targetProxy = 5824FFC82AC3C4CA007E1C17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5824FFB02AC3C4C8007E1C17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5824FFB12AC3C4C8007E1C17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5824FFB52AC3C4CA007E1C17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5824FFB62AC3C4CA007E1C17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5824FFCF2AC3C4CA007E1C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5824FFD02AC3C4CA007E1C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5824FFD22AC3C4CA007E1C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baemin-Clone/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = test;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chichi.Baemin-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5824FFD32AC3C4CA007E1C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Baemin-Clone/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = test;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chichi.Baemin-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5824FFD52AC3C4CA007E1C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chichi.Baemin-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baemin-Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baemin-Clone";
+			};
+			name = Debug;
+		};
+		5824FFD62AC3C4CA007E1C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chichi.Baemin-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baemin-Clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baemin-Clone";
+			};
+			name = Release;
+		};
+		5824FFD82AC3C4CA007E1C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chichi.Baemin-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baemin-Clone";
+			};
+			name = Debug;
+		};
+		5824FFD92AC3C4CA007E1C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "chichi.Baemin-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baemin-Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5824FFA22AC3C4C8007E1C17 /* Build configuration list for PBXProject "Baemin-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824FFCF2AC3C4CA007E1C17 /* Debug */,
+				5824FFD02AC3C4CA007E1C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5824FFD12AC3C4CA007E1C17 /* Build configuration list for PBXNativeTarget "Baemin-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824FFD22AC3C4CA007E1C17 /* Debug */,
+				5824FFD32AC3C4CA007E1C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5824FFD42AC3C4CA007E1C17 /* Build configuration list for PBXNativeTarget "Baemin-CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824FFD52AC3C4CA007E1C17 /* Debug */,
+				5824FFD62AC3C4CA007E1C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5824FFD72AC3C4CA007E1C17 /* Build configuration list for PBXNativeTarget "Baemin-CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5824FFD82AC3C4CA007E1C17 /* Debug */,
+				5824FFD92AC3C4CA007E1C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5824FF9F2AC3C4C8007E1C17 /* Project object */;
+}
