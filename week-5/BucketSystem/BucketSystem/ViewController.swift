@@ -9,7 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var bucketOrder: ((BucketOrder) -> Void)?
     var size: Int = 0
     var dow: Bool = false
     
@@ -54,7 +53,7 @@ class ViewController: UIViewController {
         nextVC.previousViewController = self
         nextVC.modalPresentationStyle = .fullScreen
         
-        present(nextVC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(nextVC, animated: true)
         
     }
     

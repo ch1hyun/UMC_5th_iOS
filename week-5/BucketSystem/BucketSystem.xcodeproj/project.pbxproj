@@ -16,7 +16,6 @@
 		583F28462B01F9510092ECB0 /* BucketSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F28452B01F9510092ECB0 /* BucketSystemTests.swift */; };
 		583F28502B01F9510092ECB0 /* BucketSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F284F2B01F9510092ECB0 /* BucketSystemUITests.swift */; };
 		583F28522B01F9510092ECB0 /* BucketSystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F28512B01F9510092ECB0 /* BucketSystemUITestsLaunchTests.swift */; };
-		583F285F2B0210730092ECB0 /* BucketOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F285E2B0210730092ECB0 /* BucketOrder.swift */; };
 		583F28612B0210EB0092ECB0 /* BucketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F28602B0210EB0092ECB0 /* BucketController.swift */; };
 		583F28672B0219860092ECB0 /* BucketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583F28652B0219860092ECB0 /* BucketTableViewCell.swift */; };
 		583F28682B0219860092ECB0 /* BucketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 583F28662B0219860092ECB0 /* BucketTableViewCell.xib */; };
@@ -53,7 +52,6 @@
 		583F284B2B01F9510092ECB0 /* BucketSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BucketSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		583F284F2B01F9510092ECB0 /* BucketSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSystemUITests.swift; sourceTree = "<group>"; };
 		583F28512B01F9510092ECB0 /* BucketSystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketSystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		583F285E2B0210730092ECB0 /* BucketOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketOrder.swift; sourceTree = "<group>"; };
 		583F28602B0210EB0092ECB0 /* BucketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketController.swift; sourceTree = "<group>"; };
 		583F28652B0219860092ECB0 /* BucketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketTableViewCell.swift; sourceTree = "<group>"; };
 		583F28662B0219860092ECB0 /* BucketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BucketTableViewCell.xib; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				583F28372B01F9510092ECB0 /* Assets.xcassets */,
 				583F28392B01F9510092ECB0 /* LaunchScreen.storyboard */,
 				583F283C2B01F9510092ECB0 /* Info.plist */,
-				583F285E2B0210730092ECB0 /* BucketOrder.swift */,
 				583F28602B0210EB0092ECB0 /* BucketController.swift */,
 			);
 			path = BucketSystem;
@@ -283,7 +280,6 @@
 				583F28612B0210EB0092ECB0 /* BucketController.swift in Sources */,
 				583F282F2B01F9500092ECB0 /* AppDelegate.swift in Sources */,
 				583F28672B0219860092ECB0 /* BucketTableViewCell.swift in Sources */,
-				583F285F2B0210730092ECB0 /* BucketOrder.swift in Sources */,
 				583F28312B01F9500092ECB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

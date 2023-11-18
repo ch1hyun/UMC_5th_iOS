@@ -19,12 +19,15 @@ class BucketController: UIViewController {
         
         
         let feedNib = UINib(nibName: "BucketTableViewCell", bundle: nil)
-        tableView.register(feedNib, forCellReuseIdentifier: "BucketTableViewCell")
+        tableView.register(feedNib, forCellReuseIdentifier: "BucketCell")
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func backButtonDidTap(_ sender: UIBarButtonItem) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
     /*
     // MARK: - Navigation
 
@@ -39,11 +42,24 @@ class BucketController: UIViewController {
 
 extension BucketController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 1
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "BucketTableViewCell", for:    indexPath) as? BucketTableViewCell else {
+        guard let cell: BucketTableViewCell = tableView.dequeueReusableCell(withIdentifier: "BucketCell", for:    indexPath) as? BucketTableViewCell else {
             return UITableViewCell()
+        }
+        if (previousViewController?.dow == true) {
+            cell.dowLavel.isHidden = false
+        } else {
+            cell.dowLavel.isHidden = true
+        }
+        print("\(previousViewController?.dow as Bool?)")
+        print("\(previousViewController?.size as Int?)")
+        
+        if (previousViewController?.size == 0) {
+            cell.sizeLabel.text = "M"
+        } else if (previousViewController?.size == 1) {
+            cell.sizeLabel.text = "L"
         }
         cell.selectionStyle = .none
         return cell
