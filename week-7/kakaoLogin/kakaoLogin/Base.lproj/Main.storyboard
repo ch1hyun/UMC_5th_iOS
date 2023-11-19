@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kakaoLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFq-Gb-Iq5">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="imj-zn-SAd">
+                                        <rect key="frame" x="15" y="421" width="363" height="53.333333333333314"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="카카오 계정으로 로그인" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" red="0.82468283176422119" green="0.92308527231216431" blue="0.19502148032188416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="kakaoAccountLoginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pbK-Un-knA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sma-D8-adK">
+                                        <rect key="frame" x="15" y="489.33333333333337" width="363" height="53"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="연결 끊기" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" red="0.82468283176422119" green="0.92308527231216431" blue="0.19502148032188416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="disconnectLinkButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fe5-97-Z45"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vkc-NN-xFe">
+                                        <rect key="frame" x="15" y="49.999999999999986" width="363" height="227.66666666666663"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQw-n1-0ie">
+                                        <rect key="frame" x="15" y="557.33333333333337" width="363" height="53"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="로그아웃" cornerStyle="medium">
+                                            <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="baseBackgroundColor" red="0.82468283176422119" green="0.92308527231216431" blue="0.19502148032188416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="logoutButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pIT-6R-e8l"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="DQw-n1-0ie" secondAttribute="trailing" constant="15" id="0B5-Ks-HDN"/>
+                                    <constraint firstItem="Vkc-NN-xFe" firstAttribute="top" secondItem="lFq-Gb-Iq5" secondAttribute="top" constant="50" id="4Tm-aq-yCL"/>
+                                    <constraint firstAttribute="trailing" secondItem="imj-zn-SAd" secondAttribute="trailing" constant="15" id="4bU-ev-nHm"/>
+                                    <constraint firstItem="DQw-n1-0ie" firstAttribute="top" secondItem="Sma-D8-adK" secondAttribute="bottom" constant="15" id="54O-4P-35D"/>
+                                    <constraint firstItem="Vkc-NN-xFe" firstAttribute="height" secondItem="lFq-Gb-Iq5" secondAttribute="height" multiplier="0.3" id="S8r-KN-sVI"/>
+                                    <constraint firstItem="Sma-D8-adK" firstAttribute="leading" secondItem="lFq-Gb-Iq5" secondAttribute="leading" constant="15" id="X73-pH-bSF"/>
+                                    <constraint firstItem="DQw-n1-0ie" firstAttribute="leading" secondItem="lFq-Gb-Iq5" secondAttribute="leading" constant="15" id="Xx3-xC-y6o"/>
+                                    <constraint firstItem="Sma-D8-adK" firstAttribute="height" secondItem="imj-zn-SAd" secondAttribute="height" id="Z5B-WV-t8H"/>
+                                    <constraint firstItem="Sma-D8-adK" firstAttribute="top" secondItem="imj-zn-SAd" secondAttribute="bottom" constant="15" id="ZRc-6r-5pe"/>
+                                    <constraint firstItem="DQw-n1-0ie" firstAttribute="height" secondItem="Sma-D8-adK" secondAttribute="height" id="ZYn-TF-K4j"/>
+                                    <constraint firstItem="Vkc-NN-xFe" firstAttribute="leading" secondItem="lFq-Gb-Iq5" secondAttribute="leading" constant="15" id="kG4-sD-eVs"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sma-D8-adK" secondAttribute="trailing" constant="15" id="khF-Yf-F27"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vkc-NN-xFe" secondAttribute="trailing" constant="15" id="pYo-qZ-G9n"/>
+                                    <constraint firstItem="imj-zn-SAd" firstAttribute="leading" secondItem="lFq-Gb-Iq5" secondAttribute="leading" constant="15" id="uxW-Uc-886"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89b-db-pDB">
+                                <rect key="frame" x="15" y="412" width="363" height="53"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="카카오 로그인" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.82468283176422119" green="0.92308527231216431" blue="0.19502148032188416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="kakaoLoginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mIX-HM-riF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="89b-db-pDB" firstAttribute="centerX" secondItem="lFq-Gb-Iq5" secondAttribute="centerX" id="1N2-5h-DxB"/>
+                            <constraint firstItem="lFq-Gb-Iq5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3Ua-7H-rad"/>
+                            <constraint firstItem="89b-db-pDB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="4IR-Ox-cKx"/>
+                            <constraint firstItem="89b-db-pDB" firstAttribute="height" secondItem="lFq-Gb-Iq5" secondAttribute="height" multiplier="0.07" id="Hbo-ch-JI7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lFq-Gb-Iq5" secondAttribute="bottom" id="Ps0-0v-7KL"/>
+                            <constraint firstItem="lFq-Gb-Iq5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ZF9-cH-0nm"/>
+                            <constraint firstItem="89b-db-pDB" firstAttribute="centerY" secondItem="lFq-Gb-Iq5" secondAttribute="centerY" id="dHl-7x-Uu8"/>
+                            <constraint firstItem="imj-zn-SAd" firstAttribute="height" secondItem="89b-db-pDB" secondAttribute="height" id="mhf-aK-idP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lFq-Gb-Iq5" secondAttribute="trailing" id="tOC-tB-glX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="89b-db-pDB" secondAttribute="trailing" constant="15" id="vHY-Ra-SHu"/>
+                            <constraint firstItem="imj-zn-SAd" firstAttribute="top" secondItem="89b-db-pDB" secondAttribute="bottom" constant="15" id="xOE-8e-h3t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultField" destination="Vkc-NN-xFe" id="DGh-CY-neW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="65" y="-49"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
