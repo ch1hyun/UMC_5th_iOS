@@ -41,12 +41,15 @@ class ProfileViewController: UIViewController {
 
 // MARK: UICollectionViewDelegate, UICollectionViewDataSource
 extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    // 섹션 개수
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 2
     }
     
+    // 셀의 개수
     func collectionView(_ collectionView: UICollectionView,
                         numberOfItemsInSection section: Int) -> Int {
+        print("cell count >> ", section)
         switch section {
         case 0:
             return 1
@@ -58,6 +61,7 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
     func collectionView(_ collectionView: UICollectionView,
                         cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let section = indexPath.section
+        print(section)
         
         switch section {
         case 0:
@@ -65,6 +69,7 @@ extension ProfileViewController: UICollectionViewDelegate, UICollectionViewDataS
                 //return UICollectionViewCell()
                 fatalError("셀 타입 캐스팅 실패...")
             }
+            print(cell)
             
             return cell
         default:
@@ -84,9 +89,16 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
                         layout collectionViewLayout: UICollectionViewLayout,
                         sizeForItemAt indexPath: IndexPath) -> CGSize {
         let section = indexPath.section
+        print("size determinant >> ", section)
         
         switch section {
         case 0:
+            print(collectionView.frame.width)
+            print(CGFloat(159))
+            print(CGSize(
+                width: collectionView.frame.width,
+                height: CGFloat(159)
+            ))
             return CGSize(
                 width: collectionView.frame.width,
                 height: CGFloat(159)
@@ -100,6 +112,7 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        print("inter item spacing", section)
         switch section {
         case 0:
             return CGFloat(0)
@@ -109,6 +122,7 @@ extension ProfileViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        print("line spacing", section)
         switch section {
         case 0:
             return CGFloat(0)
